@@ -1,4 +1,15 @@
 .city-forecast-table th,
 .city-forecast-table td {
+  vertical-align: middle !important;
+  text-align: center !important;
   width: 25%;
+}
+
+svg {
+  height: 150px;
+}
+
+.google-map-cell > div {
+  width: 250px;
+  height: 200px;
 }
